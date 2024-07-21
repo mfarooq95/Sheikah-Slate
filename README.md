@@ -2,7 +2,7 @@
 
 
 ## Overview
-Sheikah Slate is a Discord bot that takes in user requests for information and data on in-game objects from The Legend of Zelda: Breath of the Wild through a ping system. The bot uses a third-party APi to gather its informaiton, parses and alters the information and returns it in an embed object in the channel it was called in.
+Sheikah Slate is a Discord bot that takes in user requests for information and data on in-game objects from The Legend of Zelda: Breath of the Wild through a ping system. The bot uses a third-party API to gather its informaiton, parses and alters the information and returns it in an embed object in the channel it was called in.
 
 ## Libraries & Dependencies
 
