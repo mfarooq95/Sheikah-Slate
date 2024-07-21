@@ -39,4 +39,7 @@ The bot's aliases can be updated in the `main.py` file under line 21, in the lis
 
 ## Post-MVP
 While the bot is now functional and can be invited to servers and handle user requests to return data on game objects from The Legend of Zelda: Breath of the Wild, the data that is returned is rudimentary and only tied to Breath of the Wild as the bot connects to `pyrule-compendium`, an API and its wrapper to make the necessary GET requests to gather data. The current goal is to create my own API that will serve The Legend of Zelda: Tears of the Kingdom's object data which can be far more detailed and robust, giving both users of the API access to detailed backend data on all game objects in the latest entry as well as allowing this Discord bot to serve even more detailed information on game objects.
+
 This API is currently being developed and will be visible in its own repo on GitHub.
+
+Along with the major change to the bot with the new API, I'd also like to eventually update the bot to utilize a logger, to track errors. From there, it'd be best to account for error-handling with both detailed error messages and bot functionality, to prevent breaking.
